@@ -23,6 +23,6 @@ We have only 3 files which focus on different actions:
 
 - `yelp_business_filtering.ipynb`: This notebook was written and executed on a local machine. Ensure that `business.json` is located in the same directory as this script, and rename the file to `yelp_academic_dataset_business.json`
 
-- `yelp_review_filtering.ipynb`: This notebook was written and executed on a local machine. Ensure that `review.json` is located in the same directory as this script, and rename the file to `yelp_academic_dataset_review.json`
+- `yelp_review_filtering.ipynb`: This notebook was written and executed on a local machine. Ensure that `review.json` is located in the same directory as this script, convert it to CSV and rename the file to `review_tester.csv`
 
 - `yelp_lda_model.ipynb`: This notebook was written and executed on Google Colab, which uses Google Drive as the primary storage location. Ensure that this script, along with the filtered reviews dataset (`yelp_review.csv`) are located on a folder `CZ4032 (Local)` in the root of your Google Drive.
