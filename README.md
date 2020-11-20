@@ -11,14 +11,18 @@ The yelp dataset can be obtained from [here](https://www.yelp.com/dataset), and 
 
 ### Set up
 
-We have only two files which focus on different actions:
+We have only 3 files which focus on different actions:
 
 - `yelp_business_filtering.ipynb`: Handles the filtering of businesses to extract restaurants within Las Vegas based on the properties `city` and `categories`
+
+- `yelp_review_filtering.ipynb`: Handles the filtering of reviews to extract all reviews related to restaurants in Las Vegas based on `business_id`.
 
 - `yelp_lda_model.ipynb`: Handles the preprocessing and actual training of the LDA model based on the filtered reviews, as well some analysis on the results.
 
 ### Running the program
 
 - `yelp_business_filtering.ipynb`: This notebook was written and executed on a local machine. Ensure that `business.json` is located in the same directory as this script, and rename the file to `yelp_academic_dataset_business.json`
+
+- `yelp_review_filtering.ipynb`: This notebook was written and executed on a local machine. Ensure that `review.json` is located in the same directory as this script, and rename the file to `yelp_academic_dataset_review.json`
 
 - `yelp_lda_model.ipynb`: This notebook was written and executed on Google Colab, which uses Google Drive as the primary storage location. Ensure that this script, along with the filtered reviews dataset (`yelp_review.csv`) are located on a folder `CZ4032 (Local)` in the root of your Google Drive.
